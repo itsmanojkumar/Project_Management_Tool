@@ -1,0 +1,21 @@
+.borders{
+
+}
+.borders2{
+    height: 800px;
+    width: 1500px;
+    border: 2px solid;
+    background-color: lightskyblue;
+}
+
+.navs ul{
+    display:flex;
+    gap: 50px;
+    font-size: 30px;
+    justify-content: space-around;
+     
+}
+.navs li{
+    display:flex;
+
+}
