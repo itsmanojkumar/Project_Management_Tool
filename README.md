@@ -14,6 +14,77 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
 
+About project
+
+# Project Management Tool
+
+A robust and scalable project management tool designed for teams to collaborate, track progress, and manage tasks efficiently. It features role-based access control for **Users** and **Admins**.
+
+## Features
+- **User Roles**: 
+  - **Admin**: Manage projects, users, and tasks.
+  - **User**: Create, update, and track assigned tasks.
+- **Project Dashboard**: Overview of all projects, tasks, and team members.
+- **Task Management**: Assign, update, and track task statuses.
+- **Collaboration**: Comment on tasks and tag team members.
+- **Notifications**: Get real-time updates on task progress.
+- **Kanban & Calendar View**: Visualize project workflow effectively.
+- **Secure Authentication**: JWT-based authentication for user security.
+- **Reports & Analytics**: Generate project progress reports.
+
+## Technologies Used
+- **Frontend**: React.js / Next.js, Tailwind CSS
+- **Backend**: Node.js, Express.js, TypeScript
+- **Database**: PostgreSQL / MongoDB
+- **Authentication**: JWT / OAuth
+- **State Management**: Redux / React Query
+- **Hosting**: Vercel / AWS / Firebase
+- **Real-Time Features**: WebSockets / Firebase Firestore
+
+## Installation
+
+1. Clone the repository:
+   ```sh
+   git clone https://github.com/itsmanojkumar/project-management-tool.git
+   cd project-management-tool
+
+    Install dependencies:
+
+npm install
+
+Set up environment variables:
+
+cp .env.example .env
+
+(Optional) Start the frontend:
+
+    cd client
+    npm install
+    npm start
+
+Usage
+
+    Admins can create projects, assign team members, and manage tasks.
+    Users can track assigned tasks, update statuses, and collaborate.
+    Switch between Kanban, List, and Calendar views for better project visualization.
+
+Contribution
+
+We welcome contributions! Please follow these steps:
+
+    Fork the repository.
+    Create a new branch: git checkout -b feature-branch
+    Commit changes: git commit -m 'Add new feature'
+    Push to branch: git push origin feature-branch
+    Create a Pull Request.
+
+License
+
+This project is licensed under the MIT License.
+Contact
+
+For inquiries, please reach out via email or create an issue in the repository.
+
 ### `npm test`
 
 Launches the test runner in the interactive watch mode.\
